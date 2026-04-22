@@ -1,28 +1,28 @@
 class DeltaforgeMcp < Formula
   desc "Delta Forge Model Context Protocol server"
   homepage "https://deltaforge.org"
-  version "1.0.1"
+  version "1.0.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-mcp-1.0.1-macos-arm64.tar.gz"
-      sha256 "f466f814d19569a053f4b1903cfbd572215cb5128ac0bc87a11a5e7c248afbe5"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-mcp-1.0.2-macos-arm64.tar.gz"
+      sha256 "47eca186e3a57268555837818b4121cc306310054907b14947eb33226ba2e2d8"
     end
     on_intel do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-mcp-1.0.1-macos-x64.tar.gz"
-      sha256 "bc16e12afa5e313404db82287e97fa4ed2c0e2233b15ec1d19d44b76db4b794d"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-mcp-1.0.2-macos-x64.tar.gz"
+      sha256 "1eff73961e02a126e18fc52ae89d763b84f8fff2c1cb2c770a6543c48354bbc1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-mcp-1.0.1-linux-arm64.tar.gz"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-mcp-1.0.2-linux-arm64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
     on_intel do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-mcp-1.0.1-linux-x64.tar.gz"
-      sha256 "a3a75a29ac06924fd881f5ed639e4937f412ad5ebabe142f60e4e49495d99506"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-mcp-1.0.2-linux-x64.tar.gz"
+      sha256 "d69b6d555c6e96b51144c44c5d76ac40db140514d8abbd15b27d655168b6381f"
     end
   end
 

@@ -1,28 +1,28 @@
 class DeltaforgeCli < Formula
   desc "Delta Forge command-line interface"
   homepage "https://deltaforge.org"
-  version "1.0.1"
+  version "1.0.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-cli-1.0.1-macos-arm64.tar.gz"
-      sha256 "2a4aeef37498b50e58c60a692c8e6f4d9f3faa63c22ea0432ed500199e0cb87f"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-cli-1.0.2-macos-arm64.tar.gz"
+      sha256 "abd91924a4a8d3aa454204f564e6955a96f4500152068485c5de881d4a950fd4"
     end
     on_intel do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-cli-1.0.1-macos-x64.tar.gz"
-      sha256 "952573a4f9a67ce42239ac2253d280f1e2213ddbd97b579680df008357070cee"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-cli-1.0.2-macos-x64.tar.gz"
+      sha256 "0c747c9b26e851a75aeb50b6a508815df0734b051982b25ef8279e9c9ab6e53c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-cli-1.0.1-linux-arm64.tar.gz"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-cli-1.0.2-linux-arm64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
     on_intel do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.1/deltaforge-cli-1.0.1-linux-x64.tar.gz"
-      sha256 "1c677b012ff5ee999255340ae47c0a6df33aaf581703dedab85c2b818ccbeeca"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.2/deltaforge-cli-1.0.2-linux-x64.tar.gz"
+      sha256 "b38ce0369459916de16c1fe651ef0e14faf7e80ac8078c1a9f42339a7d72e237"
     end
   end
 
