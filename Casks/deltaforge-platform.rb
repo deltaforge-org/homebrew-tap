@@ -1,4 +1,4 @@
-cask "deltaforge" do
+cask "deltaforge-platform" do
   version "1.0.4"
 
   on_arm do
@@ -10,8 +10,8 @@ cask "deltaforge" do
     sha256 "3eeb8782370d4bfb6a4584907d5755406adeaea284a5e26f409ee54c4a061ed9"
   end
 
-  name "DeltaForge"
-  desc "Delta Lake and Iceberg workbench: run SQL, pipelines, Cypher graphs"
+  name "DeltaForge Platform"
+  desc "Delta Lake and Iceberg platform: run SQL, pipelines, Cypher graphs"
   homepage "https://deltaforge.org"
 
   app "DeltaForge.app"
