@@ -22,7 +22,7 @@ class DeltaforgeCli < Formula
     end
     on_intel do
       url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.6/deltaforge-cli-1.0.6-linux-x64.tar.gz"
-      sha256 "0051595b461e6669af17b2b4b7d6bbd70704b0847fb5a6e7dc668d74ff3226c5"
+      sha256 "017f860b0b1336e1ec7390bed94e3678bdbb3c7982a8bd9a4c50eb12c63d652e"
     end
   end
 
