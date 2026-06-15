@@ -7,11 +7,11 @@ class DeltaforgeCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.6/deltaforge-cli-1.0.6-macos-arm64.tar.gz"
-      sha256 "fa161ae15678a2a394c936c600dedbeea341274d399c609cdabe7cefcf2a76d3"
+      sha256 "4db3ac73e5ad1dbe9a789f8b7f525c1f36d4628af8dcaed7b831ef7b88a8e461"
     end
     on_intel do
       url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.6/deltaforge-cli-1.0.6-macos-x64.tar.gz"
-      sha256 "d618221d5e78d7514ea090cefa6cfcd2bbb9452098b8a5a30c8f0c2f0818d5d6"
+      sha256 "9212f8cbbddeb3a7ce766a8ef58f6af2a44c1c7353f7c96b6a7d9467a0cdac9a"
     end
   end
 
@@ -22,7 +22,7 @@ class DeltaforgeCli < Formula
     end
     on_intel do
       url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.6/deltaforge-cli-1.0.6-linux-x64.tar.gz"
-      sha256 "070944b3ac47599be8a0d8eb1a0252a4818944033a7c5e318b5bf932ba72ee6f"
+      sha256 "0051595b461e6669af17b2b4b7d6bbd70704b0847fb5a6e7dc668d74ff3226c5"
     end
   end
 
