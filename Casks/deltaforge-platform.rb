@@ -1,13 +1,13 @@
 cask "deltaforge-platform" do
-  version "1.0.6"
+  version "1.0.7"
 
   on_arm do
-    url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.6/deltaforge-1.0.6-macos-arm64.dmg"
-    sha256 "69457a7c081a853c3912a1838ab2c3b345294bcf49013ef411a0d86ee27520ef"
+    url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.7/deltaforge-1.0.7-macos-arm64.dmg"
+    sha256 "a8d7053b96c18b448d93d60167290a29beda63f1faaf3a37d4cf81a2a69fd987"
   end
   on_intel do
-    url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.6/deltaforge-1.0.6-macos-x64.dmg"
-    sha256 "1bfb5d3d99729056003665d6181dbc13c5efc32828a0f7aaf066dfb9fad763c5"
+    url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.7/deltaforge-1.0.7-macos-x64.dmg"
+    sha256 "45c2154744997f70bd72caf53be0f6cec72407bc60d02a391c4c5e8855642f8c"
   end
 
   name "DeltaForge Platform"
