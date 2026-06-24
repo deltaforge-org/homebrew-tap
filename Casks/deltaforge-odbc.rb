@@ -1,6 +1,6 @@
 cask "deltaforge-odbc" do
   version "1.0.8"
-  sha256 "4483f825fe216c44f3d1a6bc53e0a33ae66a883dde0d85ecf5db9abded739519"
+  sha256 "d9c74472154185f95e37c3e2bca1f75573b7fcc3e42eefd32e3550a25348580f"
   url "https://github.com/deltaforge-org/delta-forge-odbc/releases/download/v1.0.8/deltaforge-odbc-1.0.8-macos-universal.pkg"
   name "DeltaForge ODBC Driver"
   desc "ODBC 3.80 driver for DeltaForge Delta Lake and Iceberg tables"
