@@ -1,28 +1,28 @@
 class DeltaforgeCli < Formula
   desc "Query Delta Lake and Apache Iceberg in place from the terminal, no cluster"
   homepage "https://deltaforge.org"
-  version "1.0.7"
+  version "1.0.8"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.7/deltaforge-cli-1.0.7-macos-arm64.tar.gz"
-      sha256 "b417156d4f72ad0d72cfb59d84a46780676bcb188cccf2366b259cd4155ad6b5"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.8/deltaforge-cli-1.0.8-macos-arm64.tar.gz"
+      sha256 "dc7aeb9b82c9ca2473be84cef02f9cc26211757650b31c41472a6e976211b021"
     end
     on_intel do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.7/deltaforge-cli-1.0.7-macos-x64.tar.gz"
-      sha256 "4809a3de53d63e96efaa7ccbfee4ee9b36c01f2380ca0482dd982751c410c7e3"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.8/deltaforge-cli-1.0.8-macos-x64.tar.gz"
+      sha256 "2458625a0c4e62048f7ee27f71878993caa19fa5b621c8701f10b5a4e688e525"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.7/deltaforge-cli-1.0.7-linux-arm64.tar.gz"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.8/deltaforge-cli-1.0.8-linux-arm64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
     on_intel do
-      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.7/deltaforge-cli-1.0.7-linux-x64.tar.gz"
-      sha256 "062abbf46384e478ec686e79704d388c106d7b86cdbe9d086b5b294c7b56c17e"
+      url "https://github.com/deltaforge-org/delta-forge/releases/download/v1.0.8/deltaforge-cli-1.0.8-linux-x64.tar.gz"
+      sha256 "d9d7b59529bf4b253eb7d2d97f5e4cd6c5f36b92c0d8cbee7169ebeb2ad73926"
     end
   end
 
